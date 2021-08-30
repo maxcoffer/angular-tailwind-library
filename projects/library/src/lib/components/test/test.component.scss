@@ -1,0 +1,23 @@
+@layer components {
+
+  .test-component-base {
+    @apply w-full;
+
+    &.test-component-disabled {
+      @apply opacity-50;
+    }
+
+    .test-component-wrapper {
+      @apply rounded-lg bg-skin-fill;
+
+      .test-component-block {
+        @apply max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8;
+      }
+    }
+  }
+
+  .test-component-text {
+    @apply ml-3 font-medium text-white truncate;
+  }
+
+}

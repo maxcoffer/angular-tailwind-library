@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Default accent colors.
+// Base Tailwind CSS indigo-600, 700, 400.
+// $theme-colors: (
+//   "fill": rgba(79, 70, 229, 1),
+//   "hover": rgba(67, 56, 202, 1),
+//   "disabled": rgba(129, 140, 248, 1),
+// );
+
+// Branded accent colors.
+$theme-colors: (
+  "fill": rgb(70, 94, 229),
+  "hover": rgb(42, 60, 219),
+  "disabled": rgb(129, 157, 248),
+);
+
+// Set custom properties for branding.
+// You can dynamically change this variables for accent theming.
+@layer base {
+  :root {
+    @each $key, $val in $theme-colors {
+      --color-accent-#{$key}: #{$val};
+    }
+  }
+}

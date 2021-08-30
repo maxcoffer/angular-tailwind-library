@@ -1,0 +1,12 @@
+{
+  "name": "angular-tailwind-library",
+  "description": "Angular Tailwind Library",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/core": "^12.0.0 || ^13.0.0-0",
+    "@angular/common": "^12.0.0 || ^13.0.0-0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
