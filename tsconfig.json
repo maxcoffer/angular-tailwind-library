@@ -6,7 +6,7 @@
     "paths": {
       "@angular/cdk": ["../cdk"],
       "@angular/cdk/*": ["../cdk/*"],
-      "elements": [
+      "library": [
         "dist/library",
       ],
     },

@@ -2,6 +2,10 @@
  * Public API surface of components.
  */
 
-// Test library module
-export * from './lib/components/test/test.module';
-export * from './lib/components/test/test.component';
+// First library component
+export * from './lib/components/first/first.module';
+export * from './lib/components/first/first.component';
+
+// Seconds library component
+export * from './lib/components/second/second.module';
+export * from './lib/components/second/second.component';

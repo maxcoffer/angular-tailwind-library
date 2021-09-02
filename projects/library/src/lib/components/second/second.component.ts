@@ -9,20 +9,20 @@ import {
  * @title Button-toggles with forms
  */
 @Component({
-  exportAs: 'testLibraryComponent',
+  exportAs: 'secondLibraryComponent',
   host: {
     '[attr.disabled]': 'disabled || null',
-    '[class.test-component-disabled]': 'disabled',
+    '[class.second-component-disabled]': 'disabled',
     // Add a class that applies to all components.
-    'class': 'test-component-base'
+    'class': 'second-component-base'
   },
-  selector: 'test-library-component',
-  templateUrl: './test.component.html',
-  styleUrls: ['test.component.scss'],
+  selector: 'second-library-component',
+  templateUrl: './second.component.html',
+  styleUrls: ['second.component.scss'],
   inputs: ['disabled'],
   encapsulation: ViewEncapsulation.None,
 })
-export class TestLibraryComponent implements OnInit {
+export class SecondLibraryComponent implements OnInit {
 
   constructor() {}
 

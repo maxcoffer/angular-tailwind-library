@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { ExampleComponent } from './example.component';
 
 import {
-  TestLibraryModule,
+  FirstLibraryModule,
 } from '../../../../projects/library/src/public-api';
 
 export {
@@ -14,7 +14,7 @@ export {
     ExampleComponent,
   ],
   imports: [
-    TestLibraryModule,
+    FirstLibraryModule,
   ],
   exports: [
     ExampleComponent,
