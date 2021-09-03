@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 
 import { ExampleModule } from './components/example/example.module';
 import { LibraryModule } from './components/library/library.module';
+import { GlobalModule } from './components/global/global.module';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { LibraryModule } from './components/library/library.module';
     BrowserModule,
     ExampleModule,
     LibraryModule,
+    GlobalModule,
   ],
   providers: [
     NgModule
