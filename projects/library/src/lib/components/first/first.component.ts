@@ -18,7 +18,7 @@ import {
   },
   selector: 'first-library-component',
   templateUrl: './first.component.html',
-  styleUrls: ['first.component.scss'],
+  styleUrls: ['./first.component.scss'],
   inputs: ['disabled'],
   encapsulation: ViewEncapsulation.None,
 })

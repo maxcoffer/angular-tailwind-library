@@ -1,3 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import 'src/lib/components/second/second.component.scss';
+
 @layer components {
 
   .third-component-base {

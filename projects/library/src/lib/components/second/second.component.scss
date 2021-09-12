@@ -1,23 +1,19 @@
-@layer components {
+.second-component-base {
+  @apply w-full;
 
-  .second-component-base {
-    @apply w-full;
-
-    &.second-component-disabled {
-      @apply opacity-50;
-    }
-
-    .second-component-wrapper {
-      @apply rounded-lg bg-skin-fill;
-
-      .second-component-block {
-        @apply max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8;
-      }
-    }
+  &.second-component-disabled {
+    @apply opacity-50;
   }
 
-  .second-component-text {
-    @apply ml-3 font-medium text-white truncate;
-  }
+  .second-component-wrapper {
+    @apply rounded-lg bg-skin-fill;
 
+    .second-component-block {
+      @apply max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8;
+    }
+  }
+}
+
+.second-component-text {
+  @apply ml-3 font-medium text-white truncate;
 }

@@ -6,9 +6,8 @@
     "paths": {
       "@angular/cdk": ["../cdk"],
       "@angular/cdk/*": ["../cdk/*"],
-      "library": [
-        "dist/library",
-      ],
+      "library": ["dist/library"],
+      "library/*": ["dist/library/*"],
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

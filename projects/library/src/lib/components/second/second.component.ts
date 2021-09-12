@@ -18,7 +18,7 @@ import {
   },
   selector: 'second-library-component',
   templateUrl: './second.component.html',
-  styleUrls: ['second.component.scss'],
+  // styleUrls: ['./second.component.scss'],
   inputs: ['disabled'],
   encapsulation: ViewEncapsulation.None,
 })

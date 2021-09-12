@@ -1,6 +1,8 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+// @import "tailwindcss/base";
+// @import "tailwindcss/components";
+// @import "tailwindcss/utilities";
+
+@import "dist/library/styles.scss";
 
 // Default accent colors.
 // Base Tailwind CSS indigo-600, 700, 400.
@@ -26,5 +28,3 @@ $theme-colors: (
     }
   }
 }
-
-@import "dist/library/src/styles.scss";
